@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body
+{
+    font-family: 'Patrick Hand';
+}
+h1
+{
+	color: black;
+	
+    font-size: 50PX;
+    margin: auto;
+	
+}
+
+h2
+{
+	color: black;
+    font-size: 20PX;
+    margin: auto;
+}
+
+h3
+{
+    display: inline-block;
+    font-size: 20px;
+}
+
+#space
+{
+    height: 100px;
+    width: auto;
+    padding: 1em;
+    background-color: #EB9249;
+}
+
+
+
+.box
+{
+	margin:0 auto;
+	
+	width:50%;
+    border: 2em;
+    
+    border-radius: 10px;
+}
+
+
+
+button:focus
+{
+    background-color: #5154E0;
+}
+
+button
+{
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    /* how far the shadow is below  */
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: black;
+    /* how far the shadow will go down  */
+    box-shadow: 0 5px #666;
+    /* how far the box will go down along with the shadow 
+    translateY is a 2d transform element */
+    transform: translateY(4px);
+  }
+
+  

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body
+{
+    font-family: 'Patrick Hand';
+}
+h1
+{
+	color:white;
+    font-size: 50PX;
+    margin: auto;
+    padding: 5px;
+	
+}
+
+h2
+{
+	color:white;
+    font-size: 30PX;
+    margin: auto;
+    padding: 5px;
+	
+}
+
+#space
+{
+    height: 100px;
+    width: auto;
+    padding: 1em;
+    background-color: black;
+}
+
+.box
+{
+    background-color: #EA638C ;
+    padding: 10px  ;
+}
