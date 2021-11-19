@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <title>Buttons</title>
+</head>
+<body bgcolor="#F7B46D" >
+    <!-- created div up as a header -->
+    <div id="space">
+        <center>
+        <h1 style="display: inline-block;"><u>Buttons</u></h1>
+        <button style="display: inline-block;"><i class="material-icons">file_download</i></button>
+        <h1 style="display: inline-block;"><u>and Icons</u></h1>
+        <button style="display: inline-block;"><i class="material-icons">sentiment_very_satisfied</i></button>
+        </center>
+    </div>
+    
+    <!-- Buttons -->
+    <div>
+    <div class="box"; style= "display: inline-block;" >
+
+        <!-- ul is an unordered list  -->
+        <ul style="margin-left: 5em;">
+        <!-- button without using classes -->
+        <li><h3>A normal button: </h3><button type="button"><h1>This is a button</h1></button></li>
+        <br>
+        
+        <!-- gives a pop up message once clicked -->
+        <li><h3>An alert button: </h3><button onclick="alert('Yay! You clicked me!')"><h1>Click me!</h1></button></li>
+        <br>
+
+        <!-- button using the css button class by materialize -->
+        <li><h3>A wave button: </h3><a class="waves-effect waves-light btn-large" ><i class="material-icons right">favorite</i>HEART</a></li>
+        <br>
+
+        <!-- disabled button can't be clicked -->
+        <li><h3>A disabled button: </h3><a class="btn-large disabled"><i class="material-icons right">sentiment_very_dissatisfied</i>Oh Can't click this</a></li>
+        <br>
+
+        <!-- creates a pressed down effect -->
+        <li><h3>A button with an effect: </h3><a class="waves-effect button"><i class="material-icons right">sentiment_very_satisfied</i>A press effect</a></li>
+        <br>
+        
+        </ul>
+    </div>
+    <div style="float: right;">
+        <h2>Buttonsssssssssssss we love buttons <br> hoorah hoorah <br> yay nagawa narin yung div in a div in a div</h2>
+
+    </div>
+    </div>
+    <!-- floating action button -->
+    <div class="container">
+        <h1 class="yellow-text">Floating Buttons</h1>
+        <button class="btn-floating red btn-large"><i class="material-icons">add</i></button>
+        <br>
+        <button class="btn-floating black btn-large pulse"><i class="material-icons">adb</i></button>
+    </div>
+
+    <!-- actual code -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating red" href="homescreen.html"><i class="material-icons">insert_chart</i></a></li>
+          <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+          <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+        
+    <!-- Jquery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+    <script>  
+    $(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+    });
+    </script>
+           
+</body>
+</html>
